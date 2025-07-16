@@ -1,0 +1,35 @@
+{
+  "name": "buy-summ",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danek682/Typescript-2.git"
+  },
+  "author": "Danek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Danek682/Typescript-2/issues"
+  },
+  "homepage": "https://github.com/Danek682/Typescript-2#readme",
+  "description": "",
+  "devDependencies": {
+    "@babel/cli": "^7.28.0",
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.4",
+    "jest-babel": "^1.0.1",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "core-js": "^3.44.0"
+  }
+}
